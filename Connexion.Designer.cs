@@ -41,6 +41,7 @@
             validBtn.TabIndex = 0;
             validBtn.Text = "Go";
             validBtn.UseVisualStyleBackColor = true;
+            validBtn.Click += validBtn_Click;
             // 
             // loginTxtBox
             // 
@@ -67,6 +68,7 @@
             Controls.Add(validBtn);
             Name = "Connexion";
             Text = "Connexion";
+            FormClosed += Connexion_FormClosed;
             ResumeLayout(false);
             PerformLayout();
         }
