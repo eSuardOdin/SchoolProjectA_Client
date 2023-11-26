@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolProjectA_Client.Classes
 {
-    internal class Moni
+    public class Moni
     {
         public int MoniId { get; set; }
         public string MoniLogin { get; set; } = null!;
